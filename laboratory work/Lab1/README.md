@@ -20,7 +20,7 @@
  #### Пункт b. Изучите текущий файл running configuration.
 > ##### Вопрос: *Сколько интерфейсов FastEthernet (далее FE) имеется на коммутаторе 2960?*
 > ##### **Ответ:**  *24 интерфейса FE*
-> ! [show interface status](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/show%20interface%20status.jpg)
+> ![show interface status](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/show%20interface%20status.jpg)
 
 > ##### Вопроc:  *Сколько интерфесов Gigabit Ethernet (далее GE) имеется на коммутаторе 2960?*
 > ##### **Ответ:** *2 интерфеса GE*
