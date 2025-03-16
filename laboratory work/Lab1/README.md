@@ -31,6 +31,7 @@
 ### Пункт с. Изучите файл загрузочной конфигурации (startup configuration), который содержится в энергонезависимом ОЗУ (NVRAM).
 > ##### Вопрос: *Изучите конфигурацию startup. Почему появляется сообщение "startup config is not presented"?*
 > ##### **Ответ:** *Потому что настроек нак S1 не производилось, и не сохранялось с использованием команды ___copy running-config startup-config___ *
+> ![startup config](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/startup%20config.jpg)
 
 ### Пункт d. Изучите характеристики SVI для VLAN 1
 > ##### Вопрос: Назначен ли IP-адрес сети VLAN 1?
