@@ -124,15 +124,44 @@
 >
 > 
 ## Часть 2. Настройка базовых параметров сетевых устройств
+
+### Шаг 1. Настроим базовые параметры сетевых устройств
+## a.	В режиме глобальной конфигурации скопируйте следующие базовые параметры конфигурации и вставьте их в файл на коммутаторе S1
+## b.	Назначьте IP-адрес интерфейсу SVI на коммутаторе. Благодаря этому вы получите возможность удаленного управления коммутатором
+## c.	Доступ через порт консоли также следует ограничить  с помощью пароля. Используйте cisco в качестве пароля для входа в консоль в этом задании. Конфигурация по умолчанию разрешает все консольные подключения без пароля. Чтобы консольные сообщения не прерывали выполнение команд, используйте параметр logging synchronous
+### *Произвел настройка в режиме ручного ввода*
+![startup](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/startup.jpg)
+
+## d.	Настройте каналы виртуального соединения для удаленного управления (vty), чтобы коммутатор разрешил доступ через Telnet. Если не настроить пароль VTY, будет невозможно подключиться к коммутатору по протоколу Telnet.
+### *Доступ по telnet c PC-A до S1:*
+![telnet](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/telnet.jpg)
+
 > ##### Вопрос: *Для чего нужна команда login?*
 > ##### Ответ: команда запрашивает пароль при входе по ssh и telnet
 
+### Шаг 2. Настройте IP-адрес на компьютере PC-A.
+### *Назначим компьютеру IP-адрес и маску подсети в соответствии с таблицей адресации*
+![ip pc-a](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/ip%20pc-a.jpg)
+
 ## Часть 3. Проверка сетевых подключений
-### Пункт b. Проверьте параметры int vl 1.
+### Шаг 1. Отобразим конфигурацию коммутатора.
+### a. *Пример настроенной и сохраненной в startup конфигурации S1 ниже:*
+![startup](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/startup.jpg)
+### b. *Проверим параметры int vl 1.
+![int vl 1 ip](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/int%20vl%201%20ip.jpg)
 > #### Вопрос: *Какова полоса пропускания это интерфейса?*
 > #### Ответ: BW (bandwidth) равна: 100000 kbit.
 > ![bw int vlan 1](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/bw%20int%20vlan%201.jpg)
->
+### Шаг 2. Протестируем сквозное соединение, отправив эхо-запрос.
+#### a. *ICMP запрос/ответ от PC-A на свой ip address проходит:*
+![ping 1](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/ping%201.jpg)
+#### b. *SVI коммутатора S1 доступен с PC-A, т.к. находится в одно /24 сети:*
+![ping 2](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/ping%202.jpg)
+
+### Шаг 3. Проверим удаленное управление коммутатором S1.
+#### *Используя утитлиту telnet/ssh client,зайдем по telnet, используя пароли для удаленного доступа и привелигированного режимов, сохраним конфигурацию:*
+![telnet connect](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/telnet%20connect.jpg)
+
 ## Вопросы для повторения.
 > ##### Вопрос: *Зачем необходимо настраивать пароль VTY для коммутатора?*
 > ##### Ответ: для удаленного подключения с использваонием протоколов telnet, либо ssh. В дальнейшем можно разделить пользователей на группы в соответсвии с выполняемыми задачами, уровня доступа, разрешить или запретить те или иные команды и просомтр информации.
