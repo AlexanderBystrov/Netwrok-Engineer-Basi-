@@ -88,6 +88,8 @@
 
 > ##### Вопроc: *Под управлением какой версии ОС Cisco IOS работает коммутатор?*
 > ##### **Ответ:** Cisco IOS Software, C2960 Software (C2960-LANBASEK9-M), version 15.0(2)SE4, RELEASE SOFTWARE (fc1)
+> ![version](<img width="466" alt="image" src="https://github.com/user-attachments/assets/23b337a9-ef6a-4fc5-a93c-4353e070fce0" />)
+
 
 >##### Вопрос: *Как называется файл образа системы?*
 >##### Ответ: "flash:c2960-lanbasek9-mz.150-2.SE4.bin"
