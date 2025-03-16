@@ -93,6 +93,7 @@
 
 >##### Вопрос: *Как называется файл образа системы?*
 >##### Ответ: "flash:c2960-lanbasek9-mz.150-2.SE4.bin"
+>![flash\(https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/flash.jpg)
 
 ### Пукт h.	Изучите свойства по умолчанию интерфейса FastEthernet, который используется компьютером PC-A.
 
