@@ -131,6 +131,7 @@
 ### Пункт b. Проверьте параметры int vl 1.
 > #### Вопрос: *Какова полоса пропускания это интерфейса?*
 > #### Ответ: BW (bandwidth) равна: 100000 kbit.
+> ![bw int vlan 1](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/bw%20int%20vlan%201.jpg)
 >
 ## Вопросы для повторения.
 > ##### Вопрос: *Зачем необходимо настраивать пароль VTY для коммутатора?*
