@@ -117,6 +117,7 @@
 Выполните одну из следующих команд, чтобы изучить содержимое флеш-каталога.
 **Switch#** *show flash*
 **Switch#** *dir flash* 
+![dir flash](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/dir%20flash.jpg)
 
 > ##### Вопрос: *Какое имя присвоено образу Cisco IOS?*
 > ##### Ответ: 2960-lanbasek9-mz.150-2.SE4.bin
