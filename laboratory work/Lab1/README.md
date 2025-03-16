@@ -105,7 +105,7 @@
 
 > ##### Вопрос: *Какой MAC-адрес у интерфейса?*
 > ##### Ответ: 0001.639A.0ECC
-> ![fasteternet0 PC-a](<img width="398" alt="image" src="https://github.com/user-attachments/assets/ef3537e9-23ef-4bd4-9fd3-842e0d63d305" />)
+> ![fastethernet0 pc-a](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/fastethernet0%20pc-a.jpg)
 
 
 
