@@ -27,6 +27,7 @@
 
 > ##### Вопрос: *Каков диапазон значений, отображаемых в vty-линиях??*
 > ##### **Ответ:** *два диапазона line vty: 0-4, 5-15*
+> ![vty](https://github.com/AlexanderBystrov/Netwrok-Engineer-Basi-/blob/main/laboratory%20work/Lab1/vty.jpg)
 
 ### Пункт с. Изучите файл загрузочной конфигурации (startup configuration), который содержится в энергонезависимом ОЗУ (NVRAM).
 > ##### Вопрос: *Изучите конфигурацию startup. Почему появляется сообщение "startup config is not presented"?*
